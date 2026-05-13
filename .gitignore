@@ -1,6 +1,34 @@
-/target
-*.classpath
-*.project
-*.prefs
+# Maven
+/target/
+dependency-reduced-pom.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# IntelliJ / JetBrains
 .idea/
 *.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Java
+*.class
+
+# Execução local
+/run/
